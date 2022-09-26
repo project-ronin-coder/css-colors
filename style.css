@@ -32,11 +32,6 @@ Style Section for CSS Primary Colors
 Style Section for CSS RGB Colors
 */
 
-.container_for_RGB{
-  background-color: rgb(0, 0, 0);
-  padding: 10px 0;
-}
-
 .rgb_one{
   background-color: rgb(255, 0, 0);
 }
@@ -54,7 +49,7 @@ Style Section for CSS RGB Colors
   Light Colors are higher in digit
   background-color: rgb(255,255,255);
 
-  For lighter color use 127
+  For lighter color intensity use 127
 
   sample!
   background-color: rgb(0, 127, 0); 
@@ -89,4 +84,37 @@ Style Section for CSS RGB Colors
 
   Rose
   background-color: rgb(255, 0, 127);
+*/
+
+/* 
+Style Section for CSS HEX Colors
+*/
+
+.hex_one{
+  background-color: #3d5a80;
+}
+.hex_two{
+  background-color: #98c1d9;
+}
+.hex_three{
+  background-color: #e0fbfc;
+}
+
+/* 
+  For lighter color intensity
+
+  background-color: #007F00;
+
+  you have to lower the value
+  
+  If you want to generate color palettes in hexadecimal values go to: https://coolors.co
+
+  sample color palette
+
+  background-color: #0D1B1E;
+
+  background-color: #7798AB;
+
+  background-color: #C3DBC5;
+
 */
