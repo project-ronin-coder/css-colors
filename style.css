@@ -8,6 +8,12 @@ h1{
   margin: 10px auto;
 }
 
+.container{
+  background-color: rgb(0, 0, 0);
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
 .one{
   background-color: red;
 }
@@ -16,4 +22,23 @@ h1{
 }
 .three{
   background-color: blue;
+}
+
+.container_for_RGB{
+  background-color: rgb(0, 0, 0);
+  padding: 10px 0;
+}
+
+.rgb_one{
+  background-color: rgb(255, 0, 0);
+}
+.rgb_two{
+  background-color: rgb(0, 255, 0);
+  /* 
+  lighter color
+  background-color: rgb(0, 127, 0); 
+  */
+}
+.rgb_three{
+  background-color: rgb(0, 0, 255);
 }
