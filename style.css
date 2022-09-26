@@ -91,13 +91,13 @@ Style Section for CSS HEX Colors
 */
 
 .hex_one{
-  background-color: #3d5a80;
+  background-color: #FFFF00;
 }
 .hex_two{
-  background-color: #98c1d9;
+  background-color: #00FFFF;
 }
 .hex_three{
-  background-color: #e0fbfc;
+  background-color: #FF00FF;
 }
 
 /* 
@@ -118,3 +118,17 @@ Style Section for CSS HEX Colors
   background-color: #C3DBC5;
 
 */
+
+/* 
+  Style Section for CSS HSL Colors
+*/
+
+.hsl_one{
+  background-color: hsl(203, 21%, 71%);
+}
+.hsl_two{
+  background-color: hsl(189, 13%, 81%);
+}
+.hsl_three{
+  background-color: hsl(0, 25%, 98%);
+}
