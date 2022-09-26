@@ -8,6 +8,10 @@ h1{
   margin: 10px auto;
 }
 
+/* 
+Style Section for CSS Primary Colors
+*/
+
 .container{
   background-color: rgb(0, 0, 0);
   padding: 10px 0;
@@ -24,6 +28,10 @@ h1{
   background-color: blue;
 }
 
+/* 
+Style Section for CSS RGB Colors
+*/
+
 .container_for_RGB{
   background-color: rgb(0, 0, 0);
   padding: 10px 0;
@@ -34,11 +42,51 @@ h1{
 }
 .rgb_two{
   background-color: rgb(0, 255, 0);
-  /* 
-  lighter color
-  background-color: rgb(0, 127, 0); 
-  */
 }
 .rgb_three{
   background-color: rgb(0, 0, 255);
+  
 }
+/* 
+  Black Colors are lower in digit
+  background-color: rgb(0,0,0);
+
+  Light Colors are higher in digit
+  background-color: rgb(255,255,255);
+
+  For lighter color use 127
+
+  sample!
+  background-color: rgb(0, 127, 0); 
+
+  For Secondary Colors like:
+
+  Yellow
+  background-color: rgb(255, 255, 0);
+
+  Cyan
+  background-color: rgb(0, 255, 255);
+
+  Magenta
+  background-color: rgb(255, 0, 255);
+
+  For Tertiary Colors like:
+  
+  Orange
+  background-color: rgb(255, 127, 0);
+
+  Spring Green
+  background-color: rgb(0, 255, 127);
+
+  Violet
+  background-color: rgb(127, 0, 255);
+
+  Chartreuse green
+  background-color: rgb(127, 255, 0);
+
+  Azure
+  background-color: rgb(0, 127, 255);
+
+  Rose
+  background-color: rgb(255, 0, 127);
+*/
